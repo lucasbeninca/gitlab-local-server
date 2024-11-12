@@ -59,6 +59,11 @@ sudo docker run --detach \
 -----------------------------------------------------------------------------------------
 sudo docker logs -f gitlab
 -----------------------------------------------------------------------------------------
+obtem senha de root inicial
+sudo docker exec -it gitlab cat /etc/gitlab/initial_root_password
+-----------------------------------------------------------------------------------------
+
+
 
 adicionando runner
 
